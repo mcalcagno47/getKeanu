@@ -1,10 +1,16 @@
 * {
-    font-family: Sans-serif;
+    font-family: "Harmonia Sans", sans-serif;
     font-size: large;
 }
 
+:root {
+    --color-blue: var(rgb(107, 118, 195));
+    --color-black: black;
+    --color-green: rgb(3, 160, 98);
+}
+
 body {
-    background: linear-gradient(30deg, rgb(209, 140, 154), rgb(40, 163, 212));
+    background: rgb(209, 212, 209);
     background-repeat: no-repeat;
 }
 
@@ -30,6 +36,69 @@ body {
 
 ul.header {
     padding: 0;
+}
+
+h1 {
+    font-size: 40pt;
+    color: rgb(0, 0, 0);
+    /* text-shadow: 2px 2px 2px black; */
+}
+
+.my-name {
+    text-align: center;
+    list-style: none;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    /* padding-top: 35px;
+    padding-left: 36px;
+    padding-right: 36px; */
+}
+
+.nav {
+    justify-content: center;
+    width: auto;
+} 
+
+.nav-tabs .nav-link {
+    border-left: 0.5pt solid white;
+    border-right: 0.5pt solid, white;
+    border-radius: 0%;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: rgb(3, 160, 98);
+    color: black;
+    border: 1pt solid rgb(0, 0, 0);
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs:hover {
+    border: none;
+}
+
+.nav-item.show {
+    background-color: rgb(90, 100, 97);
+    border: none;
+}
+
+.nav-link {
+    color: black;
+    border: none;
+    width: 25vw;
+    text-align: center;
+}
+
+.nav-link:hover {
+    background-color: rgb(88, 97, 94);
+    border-left: 1pt solid white;
+    color: white;
+}
+
+.nav-link:active {
+    color: black;
 }
 
 .footer {
