@@ -101,6 +101,25 @@ h1 {
     color: black;
 }
 
+.rankListContainer {
+    margin-top: 5%;
+    display: flex;
+    flex: auto;
+}
+
+.rankList {
+    width: 33vw;
+    height: 70vh;
+    text-align: center;
+    border-right: 0.25pt solid black;
+    border-left: 0.25pt solid black;
+}
+
+.rankList ol {
+    text-align: left;
+    margin-left: 5%;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
