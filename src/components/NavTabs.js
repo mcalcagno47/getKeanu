@@ -4,11 +4,9 @@ function NavTabs({ currentPage, handlePageChange }) {
     return (
       <ul className="header">
         <div className="my-name">      
-          <li>
             <h1>
               GET KEANU
             </h1>
-          </li>
         </div>
   
         <div className="nav nav-tabs">
