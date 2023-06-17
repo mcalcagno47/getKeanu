@@ -10,7 +10,7 @@
 }
 
 body {
-    background: rgb(209, 212, 209);
+    background: rgb(43, 44, 43);
     background-repeat: no-repeat;
 }
 
@@ -60,23 +60,22 @@ h1 {
 } 
 
 .nav-tabs .nav-link {
-    border-left: 0.5pt solid white;
-    border-right: 0.5pt solid, white;
-    border-radius: 0%;
+    border-bottom: 0.5pt solid white;
+    border-radius: 10;
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    background-color: rgb(3, 160, 98);
-    color: black;
-    border: 1pt solid rgb(0, 0, 0);
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-bottom: transparent;
 }
 
 .nav-tabs {
-    border: none;
+    border: transparent;
 }
 
 .nav-tabs:hover {
-    border: none;
+    border: transparent;
 }
 
 .nav-item.show {
@@ -85,26 +84,26 @@ h1 {
 }
 
 .nav-link {
-    color: black;
-    border: none;
+    color: rgb(255, 255, 255);
+    border: transparent;
     width: 25vw;
     text-align: center;
 }
 
 .nav-link:hover {
-    background-color: rgb(88, 97, 94);
-    border-left: 1pt solid white;
     color: white;
+    border: transparent;
 }
 
 .nav-link:active {
-    color: black;
+    color: white;
 }
 
 .rankListContainer {
     margin-top: 5%;
     display: flex;
     flex: auto;
+    color: white;
 }
 
 .rankList {
