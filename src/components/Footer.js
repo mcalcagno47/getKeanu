@@ -17,6 +17,10 @@ function Footer() {
                     <a href="https://mail.google.com/mail/?view=cm&source=mailto&to=mcalcagn@gmail.com">
                         <img src={gmail} alt="gmail"></img>          
                     </a>
+
+                    {/* I want socials down here too */}
+
+                    
                 </p>
             </div>
         </footer> 

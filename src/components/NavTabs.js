@@ -11,8 +11,8 @@ function NavTabs({ currentPage, handlePageChange }) {
           </li>
         </div>
   
-        <div className="nav nav-tabs">
-          <li className="nav-item">
+        <div className="nav nav-tab">
+          {/* <li className="nav-item">
             <a
               href="#news"
               onClick={() => handlePageChange('News')}
@@ -21,7 +21,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             >
               News
             </a>
-          </li>
+          </li> */}
           <li className="nav-item">
             <a
               href="#episodes"
@@ -41,16 +41,6 @@ function NavTabs({ currentPage, handlePageChange }) {
               className={currentPage === 'Rankings' ? 'nav-link active' : 'nav-link'}
             >
               Rankings
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              href="#socials"
-              onClick={() => handlePageChange('Socials')}
-              // Check to see if the currentPage is `Socials`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-              className={currentPage === 'Socials' ? 'nav-link active' : 'nav-link'}
-            >
-              Socials
             </a>
           </li>
         </div>

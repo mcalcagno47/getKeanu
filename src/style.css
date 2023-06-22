@@ -32,6 +32,8 @@ body {
 
 .header {
     background-size: cover;
+    background: rgb(182,22,22);
+    background: linear-gradient(90deg, rgba(182,22,22,1) 0%, rgba(6,177,95,1) 50%, rgba(0,212,255,1) 100%);
 }
 
 ul.header {
@@ -59,43 +61,42 @@ h1 {
     width: auto;
 } 
 
-.nav-tabs .nav-link {
+.nav-tab .nav-link {
     border-bottom: 0.5pt solid white;
     border-radius: 10;
 }
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    background-color: transparent;
+.nav-tab .nav-item.show .nav-link, .nav-tab .nav-link.active {
+    background-color: rgb(43, 44, 43);
     color: rgb(255, 255, 255);
     border-bottom: transparent;
+    border-right: 0.25pt solid white;
+    border-left: 0.25pt solid white;
+    border-top: 0.25pt solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
-.nav-tabs {
+.nav-tab {
     border: transparent;
 }
 
-.nav-tabs:hover {
+.nav-tab:hover {
     border: transparent;
 }
 
 .nav-item.show {
     background-color: rgb(90, 100, 97);
-    border: none;
 }
 
 .nav-link {
     color: rgb(255, 255, 255);
     border: transparent;
-    width: 25vw;
+    width: 50vw;
     text-align: center;
 }
 
 .nav-link:hover {
-    color: white;
-    border: transparent;
-}
-
-.nav-link:active {
     color: white;
 }
 
