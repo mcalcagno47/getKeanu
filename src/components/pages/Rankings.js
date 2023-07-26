@@ -8,6 +8,7 @@ export default function Rankings() {
             <ol>
                 <li>John Wick</li>
                 <li>Bill and Ted's Excellent Adventure</li>
+                <li>Johnny Mnumonic</li>
             </ol>
         </div>
         <div id='Sarahs-rank' className='rankList'>
@@ -15,13 +16,15 @@ export default function Rankings() {
             <ol>
                 <li>John Wick</li>
                 <li>Bill and Ted's Excellent Adventure</li>
+                <li>Johnny Mnumonic</li>
             </ol>
         </div>
         <div id='Marks-rank' className='rankList'>
         <h3>Mark's List</h3>
             <ol>
                 <li>John Wick</li>
-                <li>Bill and Ted's Excellent Adventure</li>            
+                <li>Bill and Ted's Excellent Adventure</li>
+                <li>Johnny Mnumonic</li>            
             </ol>
         </div>
       </div>
